@@ -1,5 +1,5 @@
-# Copyright (C) 2011 The Android Open Source Project
-# Copyright (C) 2013 The CyanogenMod Project
+# Copyright (C) 2015 The Android Open Source Project
+# Copyright (C) 2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -26,12 +26,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Common Sony Resources
 $(call inherit-product, device/sony/common/resources.mk)
 
-# Inherit from z3 device
-$(call inherit-product, device/sony/z3/z3.mk)
+# Inherit from leo device
+$(call inherit-product, device/sony/leo/leo.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_z3
-PRODUCT_DEVICE := z3
+PRODUCT_NAME := full_leo
+PRODUCT_DEVICE := leo
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_MODEL := Xperia Z3

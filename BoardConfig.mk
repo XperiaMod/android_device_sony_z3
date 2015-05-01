@@ -1,4 +1,4 @@
-# Copyright (C) 2013 The CyanogenMod Project
+# Copyright (C) 2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,14 +16,14 @@
 include device/sony/shinano-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
-#-include vendor/sony/z3/BoardConfigVendor.mk
+#-include vendor/sony/leo/BoardConfigVendor.mk
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := D6602,D6603,D6633,D6643,z3,leo
 
-TARGET_SPECIFIC_HEADER_PATH += device/sony/z3/include
+TARGET_SPECIFIC_HEADER_PATH += device/sony/leo/include
 
-BOARD_HARDWARE_CLASS += device/sony/z3/cmhw
+BOARD_HARDWARE_CLASS += device/sony/leo/cmhw
 
 # Kernel properties
 TARGET_KERNEL_CONFIG := cm_shinano_leo_defconfig
@@ -34,4 +34,4 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 12656242688 # 12656259072 - 16384
 
 # SELinux
 BOARD_SEPOLICY_DIRS += \
-    device/sony/z3/sepolicy
+    device/sony/leo/sepolicy

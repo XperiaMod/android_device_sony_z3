@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 The CyanogenMod Project
+ * Copyright (C) 2015 The CyanogenMod Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,4 +20,4 @@
 #define LED_GREEN_PATH "/sys/class/leds/led:rgb_green/"
 #define LED_BLUE_PATH "/sys/class/leds/led:rgb_blue/"
 
-#define LED_BRIGHTNESS_MIN 188
+#define LED_BRIGHTNESS_MIN 255
